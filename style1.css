@@ -1,0 +1,28 @@
+body {
+    background-image: linear-gradient(to right, pink, #406696);
+}
+
+img {
+    width: 100%;
+}
+
+.big1 {
+    display: flex;
+    width: 1000px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.trai {
+    width: 500px;
+}
+
+.phai {
+    width: 490px;
+    display: flex;
+}
+
+.benphai {
+    color: yellow;
+}

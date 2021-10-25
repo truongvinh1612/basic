@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(to right, white, #64A5FF);
+}
+
+._13cot {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+._13cot ._1cot {
+    width: 76px;
+    height: 130px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+._13cot ._1cot img {
+    width: 100%;
+}
+
+._13cot ._1cot img:hover {
+    border-radius: 70%;
+    border: 2px solid blue;
+}
+
+._13cot ._1cot a.name {
+    text-decoration: none;
+}
+
+.duoi {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    /*tu dong xuong doong neu du do rong*/
+    margin-left: 50px;
+}
+
+.duoi .khoi_nho {
+    width: 200px;
+    display: flex;
+    height: 30px;
+    color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-decoration: none;
+    /*tat gach chan link*/
+    font-weight: bolder;
+    /*chu in dam*/
+}
+
+.duoi .khoi_nho img.trai {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.duoi .khoi_nho span.phai {
+    width: 150px;
+}

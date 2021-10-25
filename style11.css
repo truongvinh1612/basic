@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bo {
+    width: 700px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bo .anh {
+    width: 720px;
+    height: 100%;
+    position: relative;
+    left: -20px;
+    transition: 0.4s;
+    transform-origin: 50% 20%;
+    /*zoom ve vi tri nao (left-top)*/
+}
+
+.bo:hover .anh {
+    transform: scale(0.7);
+    /*hieu ung zoom*/
+}
+
+.bo .chuto {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    overflow: hidden;
+}
+
+.bo .chuto .chunho {
+    position: relative;
+    top: 50px;
+    transition: 0.4s;
+}
+
+.bo:hover .chuto .chunho {
+    top: -5px;
+}

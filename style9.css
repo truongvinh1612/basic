@@ -1,0 +1,46 @@
+    /*hieu ung di chuot hieu ung chu*/
+    
+    body,
+    html {
+        margin: 0;
+        height: 100%;
+    }
+    
+    .menu {
+        background-image: url(10.jpg);
+        height: 100%;
+        background-size: cover;
+        /*tran vien background*/
+    }
+    
+    .menu ul {
+        margin: 0;
+        list-style: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+    
+    .menu ul li {
+        padding-bottom: 5px;
+        transition: 0.4s;
+        font-weight: bolder;
+    }
+    
+    .menu ul li .icon {
+        display: inline;
+        color: rgb(23, 87, 208);
+        opacity: 0;
+        transition: 0.4s;
+    }
+    
+    .menu ul li:hover .icon {
+        opacity: 1;
+    }
+    
+    .menu ul li:hover {
+        margin-left: 20px;
+    }
+    
+    .menu ul li .chu {
+        display: inline;
+    }

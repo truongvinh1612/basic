@@ -1,0 +1,13 @@
+.vd1 {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    transition: 1.5s;
+    /*toc do di chuot ra*/
+}
+
+.vd1:hover {
+    background: chocolate;
+    transition: 0s;
+    /*toc do di chuot vao*/
+}

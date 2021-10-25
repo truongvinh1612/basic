@@ -1,0 +1,19 @@
+.khung {
+    background-image: url(3.jpg);
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    /*canh giua ngang(flex-end: phai != flex-start*/
+    align-items: center;
+    /*canh giua doc(flex-end: duoi cung != flex-start*/
+}
+
+.khung .noidung {
+    background-color: rgb(99, 92, 92);
+    padding: 20px;
+}

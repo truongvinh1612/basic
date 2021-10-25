@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bo {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bo .anh {
+    width: 100%;
+    height: 100%;
+}
+
+.bo .xam {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgb(226, 224, 224);
+    transition: 0.4s;
+    opacity: 0;
+    border: 0px black solid;
+    box-sizing: border-box;
+}
+
+.bo:hover .xam {
+    opacity: 1;
+    border: 10px black solid;
+}
+
+.bo .chu {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    /*hieu ung de len*/
+    top: 30px;
+    left: 30px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.bo:hover .chu {
+    opacity: 1;
+}
+
+.bo .chu h2 {}
+
+.bo .chu p {}

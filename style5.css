@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(to right, white, #64A5FF);
+}
+
+.banner {
+    display: flex;
+    width: 1115px;
+    margin: auto;
+    height: 490px;
+    justify-content: center;
+}
+
+.banner ._1c {
+    width: 210px;
+}
+
+.banner ._1c .mothang {
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+.banner ._1c .mothang:hover {
+    margin-left: 20px;
+    color: darkblue;
+}
+
+.banner ._2c {
+    width: 520px;
+}
+
+.banner ._2c .tren {
+    height: 300px;
+}
+
+.banner ._2c .duoi {
+    height: 200px;
+    display: flex;
+}
+
+.banner ._2c .duoi .motnua {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.banner ._3c {
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner ._3c .saudiv {
+    width: 50%;
+    height: 90px;
+}
+
+#s1 .carousel-indicators {
+    display: none;
+}
